@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09F985981C18561E00784BAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F985971C18561E00784BAE /* AppDelegate.swift */; };
+		09F9859A1C18561E00784BAE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F985991C18561E00784BAE /* ViewController.swift */; };
+		09F9859D1C18561E00784BAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09F9859B1C18561E00784BAE /* Main.storyboard */; };
+		09F985A01C18561E00784BAE /* ____swift.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 09F9859E1C18561E00784BAE /* ____swift.xcdatamodeld */; };
+		09F985A21C18561E00784BAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09F985A11C18561E00784BAE /* Assets.xcassets */; };
+		09F985A51C18561E00784BAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09F985A31C18561E00784BAE /* LaunchScreen.storyboard */; };
+		09F985B01C18561E00784BAE /* ____swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F985AF1C18561E00784BAE /* ____swiftTests.swift */; };
+		09F985BB1C18561E00784BAE /* ____swiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F985BA1C18561E00784BAE /* ____swiftUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		09F985AC1C18561E00784BAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09F9858C1C18561E00784BAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09F985931C18561E00784BAE;
+			remoteInfo = "钟表运动swift";
+		};
+		09F985B71C18561E00784BAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09F9858C1C18561E00784BAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09F985931C18561E00784BAE;
+			remoteInfo = "钟表运动swift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09F985941C18561E00784BAE /* 钟表运动swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "钟表运动swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		09F985971C18561E00784BAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		09F985991C18561E00784BAE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		09F9859C1C18561E00784BAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		09F9859F1C18561E00784BAE /* ____swift.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "____swift.xcdatamodel"; sourceTree = "<group>"; };
+		09F985A11C18561E00784BAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		09F985A41C18561E00784BAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		09F985A61C18561E00784BAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09F985AB1C18561E00784BAE /* 钟表运动swiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "钟表运动swiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		09F985AF1C18561E00784BAE /* ____swiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "____swiftTests.swift"; sourceTree = "<group>"; };
+		09F985B11C18561E00784BAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09F985B61C18561E00784BAE /* 钟表运动swiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "钟表运动swiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		09F985BA1C18561E00784BAE /* ____swiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "____swiftUITests.swift"; sourceTree = "<group>"; };
+		09F985BC1C18561E00784BAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09F985911C18561E00784BAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09F985A81C18561E00784BAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09F985B31C18561E00784BAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09F9858B1C18561E00784BAE = {
+			isa = PBXGroup;
+			children = (
+				09F985961C18561E00784BAE /* 钟表运动swift */,
+				09F985AE1C18561E00784BAE /* 钟表运动swiftTests */,
+				09F985B91C18561E00784BAE /* 钟表运动swiftUITests */,
+				09F985951C18561E00784BAE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		09F985951C18561E00784BAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09F985941C18561E00784BAE /* 钟表运动swift.app */,
+				09F985AB1C18561E00784BAE /* 钟表运动swiftTests.xctest */,
+				09F985B61C18561E00784BAE /* 钟表运动swiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		09F985961C18561E00784BAE /* 钟表运动swift */ = {
+			isa = PBXGroup;
+			children = (
+				09F985971C18561E00784BAE /* AppDelegate.swift */,
+				09F985991C18561E00784BAE /* ViewController.swift */,
+				09F9859B1C18561E00784BAE /* Main.storyboard */,
+				09F985A11C18561E00784BAE /* Assets.xcassets */,
+				09F985A31C18561E00784BAE /* LaunchScreen.storyboard */,
+				09F985A61C18561E00784BAE /* Info.plist */,
+				09F9859E1C18561E00784BAE /* ____swift.xcdatamodeld */,
+			);
+			path = "钟表运动swift";
+			sourceTree = "<group>";
+		};
+		09F985AE1C18561E00784BAE /* 钟表运动swiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				09F985AF1C18561E00784BAE /* ____swiftTests.swift */,
+				09F985B11C18561E00784BAE /* Info.plist */,
+			);
+			path = "钟表运动swiftTests";
+			sourceTree = "<group>";
+		};
+		09F985B91C18561E00784BAE /* 钟表运动swiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				09F985BA1C18561E00784BAE /* ____swiftUITests.swift */,
+				09F985BC1C18561E00784BAE /* Info.plist */,
+			);
+			path = "钟表运动swiftUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		09F985931C18561E00784BAE /* 钟表运动swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09F985BF1C18561E00784BAE /* Build configuration list for PBXNativeTarget "钟表运动swift" */;
+			buildPhases = (
+				09F985901C18561E00784BAE /* Sources */,
+				09F985911C18561E00784BAE /* Frameworks */,
+				09F985921C18561E00784BAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "钟表运动swift";
+			productName = "钟表运动swift";
+			productReference = 09F985941C18561E00784BAE /* 钟表运动swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		09F985AA1C18561E00784BAE /* 钟表运动swiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09F985C21C18561E00784BAE /* Build configuration list for PBXNativeTarget "钟表运动swiftTests" */;
+			buildPhases = (
+				09F985A71C18561E00784BAE /* Sources */,
+				09F985A81C18561E00784BAE /* Frameworks */,
+				09F985A91C18561E00784BAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09F985AD1C18561E00784BAE /* PBXTargetDependency */,
+			);
+			name = "钟表运动swiftTests";
+			productName = "钟表运动swiftTests";
+			productReference = 09F985AB1C18561E00784BAE /* 钟表运动swiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		09F985B51C18561E00784BAE /* 钟表运动swiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09F985C51C18561E00784BAE /* Build configuration list for PBXNativeTarget "钟表运动swiftUITests" */;
+			buildPhases = (
+				09F985B21C18561E00784BAE /* Sources */,
+				09F985B31C18561E00784BAE /* Frameworks */,
+				09F985B41C18561E00784BAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09F985B81C18561E00784BAE /* PBXTargetDependency */,
+			);
+			name = "钟表运动swiftUITests";
+			productName = "钟表运动swiftUITests";
+			productReference = 09F985B61C18561E00784BAE /* 钟表运动swiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09F9858C1C18561E00784BAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "王志盼";
+				TargetAttributes = {
+					09F985931C18561E00784BAE = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					09F985AA1C18561E00784BAE = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 09F985931C18561E00784BAE;
+					};
+					09F985B51C18561E00784BAE = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 09F985931C18561E00784BAE;
+					};
+				};
+			};
+			buildConfigurationList = 09F9858F1C18561E00784BAE /* Build configuration list for PBXProject "钟表运动swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 09F9858B1C18561E00784BAE;
+			productRefGroup = 09F985951C18561E00784BAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09F985931C18561E00784BAE /* 钟表运动swift */,
+				09F985AA1C18561E00784BAE /* 钟表运动swiftTests */,
+				09F985B51C18561E00784BAE /* 钟表运动swiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09F985921C18561E00784BAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09F985A51C18561E00784BAE /* LaunchScreen.storyboard in Resources */,
+				09F985A21C18561E00784BAE /* Assets.xcassets in Resources */,
+				09F9859D1C18561E00784BAE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09F985A91C18561E00784BAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09F985B41C18561E00784BAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09F985901C18561E00784BAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09F9859A1C18561E00784BAE /* ViewController.swift in Sources */,
+				09F985A01C18561E00784BAE /* ____swift.xcdatamodeld in Sources */,
+				09F985981C18561E00784BAE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09F985A71C18561E00784BAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09F985B01C18561E00784BAE /* ____swiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09F985B21C18561E00784BAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09F985BB1C18561E00784BAE /* ____swiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		09F985AD1C18561E00784BAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09F985931C18561E00784BAE /* 钟表运动swift */;
+			targetProxy = 09F985AC1C18561E00784BAE /* PBXContainerItemProxy */;
+		};
+		09F985B81C18561E00784BAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09F985931C18561E00784BAE /* 钟表运动swift */;
+			targetProxy = 09F985B71C18561E00784BAE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		09F9859B1C18561E00784BAE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09F9859C1C18561E00784BAE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		09F985A31C18561E00784BAE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09F985A41C18561E00784BAE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		09F985BD1C18561E00784BAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		09F985BE1C18561E00784BAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		09F985C01C18561E00784BAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "钟表运动swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-111.----swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		09F985C11C18561E00784BAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "钟表运动swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-111.----swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		09F985C31C18561E00784BAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "钟表运动swiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-111.----swiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/钟表运动swift.app/钟表运动swift";
+			};
+			name = Debug;
+		};
+		09F985C41C18561E00784BAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "钟表运动swiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-111.----swiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/钟表运动swift.app/钟表运动swift";
+			};
+			name = Release;
+		};
+		09F985C61C18561E00784BAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "钟表运动swiftUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-111.----swiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "钟表运动swift";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		09F985C71C18561E00784BAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "钟表运动swiftUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-111.----swiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "钟表运动swift";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09F9858F1C18561E00784BAE /* Build configuration list for PBXProject "钟表运动swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09F985BD1C18561E00784BAE /* Debug */,
+				09F985BE1C18561E00784BAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09F985BF1C18561E00784BAE /* Build configuration list for PBXNativeTarget "钟表运动swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09F985C01C18561E00784BAE /* Debug */,
+				09F985C11C18561E00784BAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		09F985C21C18561E00784BAE /* Build configuration list for PBXNativeTarget "钟表运动swiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09F985C31C18561E00784BAE /* Debug */,
+				09F985C41C18561E00784BAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		09F985C51C18561E00784BAE /* Build configuration list for PBXNativeTarget "钟表运动swiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09F985C61C18561E00784BAE /* Debug */,
+				09F985C71C18561E00784BAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		09F9859E1C18561E00784BAE /* ____swift.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				09F9859F1C18561E00784BAE /* ____swift.xcdatamodel */,
+			);
+			currentVersion = 09F9859F1C18561E00784BAE /* ____swift.xcdatamodel */;
+			path = "____swift.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 09F9858C1C18561E00784BAE /* Project object */;
+}
